@@ -1,0 +1,87 @@
+/*Placeholder Properties */
+input::-webkit-input-placeholder {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 300;
+}
+input::-moz-placeholder {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input:-ms-input-placeholder {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Keeping CSS Properties at Auto-Fill */
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #f5f5f5 inset;
+    -webkit-text-fill-color: #343434;
+}
+
+/* Main Form */
+.form-input {
+    height: 50px;
+    background: #f5f5f5;
+    padding: 6px 12px;
+    font-size: 1.6rem;
+    border: 1px solid #f5f5f5;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.error {
+    color: #ff0033;
+    display: none;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.error-box {
+    position: relative;
+}
+
+.error-box input::-webkit-input-placeholder {
+    color: #ff0033;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.error-box input::-moz-placeholder {
+    color: #ff0033;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.error-box input:-ms-input-placeholder {
+    color: #ff0033;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.error-box .form-input {
+    border: 1px solid  #ff0033;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.error-box .form-input:focus {
+     outline: none;
+}
+.submit-button {
+    background-color: #166dd5;
+    color: #ffffff;
+    margin: 0 auto;
+    border: none;
+}
